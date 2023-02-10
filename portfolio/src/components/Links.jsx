@@ -24,7 +24,7 @@ const Links = () => {
           
           </div>
           <div id='links' className='flex gap-10 text-8xl justify-center text-gray-200 pb-10 sm:flex-col md:justify-center md:items-center md:pt-40 sm:pt-0 sm:h-4/5 md:gap-20 sm:gap-24'>
-            <a href="https://www.linkedin.com/in/matthew-maghakian/"><BsLinkedin/></a> <a><BsGithub/></a> <a><BsFillFileEarmarkTextFill/></a>
+            <a href="https://www.linkedin.com/in/matthew-maghakian/"><BsLinkedin/></a> <a href="https://github.com/mmaghakian"><BsGithub/></a> <a href="https://github.com/mmaghakian"><BsFillFileEarmarkTextFill/></a>
           </div>
           <div className='flex gap-10 text-xl justify-center sm:hidden md:gap-202'>
             <a href="https://www.linkedin.com/in/matthew-maghakian/" className='hover:bg-teal-500 bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md border-none text-center text-lg' style={{"minWidth": "100px"}}>LinkedIn</a>          
