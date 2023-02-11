@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import CV from './components/CV'
 import NotFound from './components/NotFound'
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router}  from 'react-router-dom' 
@@ -13,7 +14,8 @@ root.render(
     <Router>
       <Routes>
         <Route path='*' element={< NotFound/>}></Route>
-        <Route  exact path='/' element={< App />}/>
+        <Route exact path='/' element={< App />}/>
+        <Route exact path='cv' element={<CV />}/>
       </Routes>
     </Router>
     

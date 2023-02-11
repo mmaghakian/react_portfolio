@@ -14,8 +14,8 @@ const Links = () => {
         </div>
         
         <div className=' w-full pr-4 py-12'>
-          <div className='pt-10 pb-16 px-40 h-fit md:hidden'>
-          <h2 className='py-1 text-lime-700'>&#47;&#47;These are my most important links. Feel free to connect with me on LinkedIn, follow my Github, or downlod my CV!</h2>
+          <div className='pt-4 pb-12 px-40 h-fit md:hidden flex flex-col items-start'>
+            <h2 className='py-1 indent-0 text-lime-600'>&#47;&#47;These are my most important links. Feel free to connect with me on LinkedIn, follow my Github, or downlod my CV!</h2>
             <h2 className='py-1 indent-0 text-gray-400'>&#60;<span style={{"color": "#3569A6"}}>div</span> <span className='text-sky-300'>className</span><span className='text-gray-200'>=</span><span className='text-amber-800'>&apos;bg-white px-10&apos;</span>&#62;</h2>
             <h2 className='py-1 indent-4 text-gray-400'>&#60;<span style={{"color": "#3569A6"}}>section</span> <span className='text-sky-300'>className</span><span className='text-gray-200'>=</span><span className='text-amber-800'>&apos;min-h-screen&apos;</span>&#62;</h2>
             <h2 className='py-1 indent-8 text-gray-400'>&#60;<span style={{"color": "#3569A6"}}>div</span> <span className='text-sky-300'>className</span><span className='text-gray-200'>=</span><span className='text-amber-800'>&apos;py-10 mb-12 flex justify-between&apos;</span>&#62;</h2>
@@ -23,7 +23,7 @@ const Links = () => {
             <h2 className='py-1 indent-16 text-gray-400'>&#60;<span style={{"color": "#3569A6"}}>li</span>&#62;</h2>
           
           </div>
-          <div id='links' className='flex gap-10 text-8xl justify-center text-gray-200 pb-10 sm:flex-col md:justify-center md:items-center md:pt-40 sm:pt-0 sm:h-4/5 md:gap-20 sm:gap-24'>
+          <div id='links' className='flex gap-10 text-8xl justify-center text-gray-200 pb-10 sm:flex-col md:justify-center md:items-center md:pt-40 sm:pt-0 sm:h-4/5 md:gap-20 sm:gap-24 sm:py-28'>
             <a href="https://www.linkedin.com/in/matthew-maghakian/"><BsLinkedin/></a> <a href="https://github.com/mmaghakian"><BsGithub/></a> <a href="https://github.com/mmaghakian"><BsFillFileEarmarkTextFill/></a>
           </div>
           <div className='flex gap-10 text-xl justify-center sm:hidden md:gap-202'>
@@ -31,7 +31,7 @@ const Links = () => {
             <a href="https://github.com/mmaghakian" className='bg-gradient-to-r from-teal-500 to-blue-500 text-white px-4 py-2 rounded-md border-none text-center text-lg' style={{"minWidth": "100px"}}>Github</a>
             <PDF />
           </div>
-          <div className='pb-10 pt-16 px-40 h-fit md:hidden'>
+          <div className='pb-10 pt-8 px-40 flex flex-col items-start h-fit md:hidden'>
           <h2 className='py-1 indent-16 text-gray-400'>&#60;<span style={{"color": "#3569A6"}}>li</span>/&#62;</h2>
             <h2 className='py-1 indent-12 text-gray-400'>&#60;<span style={{"color": "#3569A6"}}>ul</span>/&#62;</h2>
             <h2 className='py-1 indent-8 text-gray-400'>&#60;<span style={{"color": "#3569A6"}}>div</span>/&#62;</h2>
