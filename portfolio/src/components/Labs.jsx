@@ -16,7 +16,7 @@ const Labs = () => {
             <div className='text-center'>
             <h1 className='text-3xl font-mono font-bold'>&#60; Tasks /&#62;</h1>          
             </div>
-            <div className='mt-16 text-center py-8 px-8 border-none shadow-lg bg-neutral-800 rounded-lg text-white' style={{"width": "20%"}}>
+            <div className='mt-16 text-center py-8 px-8 border-none shadow-lg bg-neutral-800 rounded-lg text-white' style={{"minWidth": "20%"}}>
               <h1 className='text-2xl font-semibold'>Lab 1</h1>
               <h2 className='text-sm leading-10  text-lime-300'>Discussion Post - Web Usability.</h2>
               <p className='text-left mt-4'>
