@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -28,7 +29,7 @@ const Hero = () => {
           <h4 className='text-xs text-gray-400'>SCROLL</h4>
         </div>
         <div className='call-to-action justify-center items-start w-full flex pb-6 pr-5'>
-           <a href='/' className='bg-gradient-to-r text-xl from-teal-400 to-teal-500 text-black px-4 py-4 rounded-lg border-none font-medium drop-shadow-xl'>View My Labs</a>
+           <Link to='/labs' className='bg-gradient-to-r text-xl from-teal-400 to-teal-500 text-black px-4 py-4 rounded-lg border-none font-medium drop-shadow-xl'>View My Labs</Link>
         </div>
       </div>
   </section>
