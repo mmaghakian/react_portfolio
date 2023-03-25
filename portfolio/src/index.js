@@ -8,6 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter as Router}  from 'react-router-dom' 
 import { Route, Routes } from 'react-router-dom'
 import { Tasks } from './components/Tasks';
+import LabPage from './components/LabPage';
+import About from './components/About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,7 +18,8 @@ root.render(
       <Routes>
         <Route path='*' element={< NotFound/>}></Route>
         <Route exact path='/' element={< App />}/>
-        <Route exact path='/labs' element={<Tasks/>}/>
+        <Route exact path='/about' element={<About/>}/>
+        <Route exact path='/labs' element={<LabPage/>}/>
         <Route exact path='/labs/:propValue' element={< Tasks/>}/>
         <Route exact path='cv' element={<CV />}/>
       </Routes>
