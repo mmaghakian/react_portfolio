@@ -1,4 +1,4 @@
-# BTH645 - Portfolio made with ReactJs
+# BTH645 - Course Portfolio made with ReactJs
 
 
 #### Hosted on Netlify
