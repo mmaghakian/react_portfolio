@@ -5,7 +5,7 @@ import styled from 'styled-components'
 function Button({ labNumber }) {
   return (
     <Link to={`/labs/${labNumber}`}>
-      <a className='bg-gradient-to-r text-xl from-teal-400 to-teal-500 text-black px-4 py-4 rounded-lg border-none font-medium drop-shadow-xl'>BTH645 Lab {labNumber}</a>
+      <span className='bg-gradient-to-r text-xl from-teal-400 to-teal-500 text-black px-4 py-4 rounded-lg border-none font-medium drop-shadow-xl'>BTH645 Lab {labNumber}</span>
     </Link>
   );
 }
