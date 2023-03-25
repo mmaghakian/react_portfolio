@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {Route , Link, useParams} from 'react-router-dom'
+import {useParams} from 'react-router-dom'
 
 const Divider = styled.div`
   height: 6rem;
@@ -26,9 +26,6 @@ const Section = styled.div`
   min-height: 680px;
 `
 
-const LabCard = styled.div`
-    
-`
 
 export const Tasks = (props) => {
   const { propValue } = useParams();
