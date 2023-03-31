@@ -39,6 +39,9 @@ const Labs = () => {
         <div className='call-to-action justify-center items-start w-full flex py-6 pb-6'>
            <Button labNumber={4}/>
         </div>
+        <div className='call-to-action justify-center items-start w-full flex py-6 pb-6'>
+           <Button labNumber={5}/>
+        </div>
         
         
       </div>

@@ -20,7 +20,11 @@ export const Lab2obj = {
     in engaging the audience and is a much better alternative to explaining the hotel through text exclusively.
     
     Furthermore, the images of Cuba provide the opportunity to format the blog and page in a more visually appealing manner. Overall, images are essential in effective
-    multimedia communcation due to their ability to suppliment text, convey emotion, provide information, and add visual appeal.`,
+    multimedia communcation due to their ability to suppliment text, convey emotion, provide information, and add visual appeal.
+    
+    On the Topic of editing photos and images for use in mulimedia presentations, its important to use the highest quality images available, and proper software such as Adobe's photoshop.
+    Make sure that the images are in a format that cooperates with most modern web browsers and that doesnt suffer when compressed or scaled up/down. For the example used in this lab, no editing was required, however
+    I would turn to photoshop if adjustments were to be made.`,
     date: "2023-03-31",
     image: ["cuba1.jpg", "cuba2.jpg"] 
 }
@@ -41,3 +45,10 @@ export const Lab4obj = {
     date: "2023-03-24"
 }
 
+export const Lab5obj = {
+    name: "lab4",
+    num: "5",
+    title: "Lab 5",
+    description: "the quick brown fox jumped over the lazy dog",
+    date: "2023-03-31"
+}

@@ -1,10 +1,10 @@
 import React from 'react'
 import styled from 'styled-components'
 import {useParams, Link} from 'react-router-dom'
-import { Lab1obj, Lab2obj, Lab3obj, Lab4obj } from './LabData/Lab.data'
+import { Lab1obj, Lab2obj, Lab3obj, Lab4obj, Lab5obj } from './LabData/Lab.data'
 import { Header } from './Header';
 
-const labList = [Lab1obj, Lab2obj, Lab3obj, Lab4obj];
+const labList = [Lab1obj, Lab2obj, Lab3obj, Lab4obj, Lab5obj];
 
 const Divider = styled.div`
   height: 6rem;
@@ -132,7 +132,7 @@ export const Tasks = (props) => {
           {currLab.image !== undefined &&         
           <LabCard>
              {currLab.image.map(image => (  
-          <><img src={image} alt="img"/> <Divider/> </>
+          <><img src={image} alt="img"/><Divider/></>
         ))}  
           </LabCard>
         }
