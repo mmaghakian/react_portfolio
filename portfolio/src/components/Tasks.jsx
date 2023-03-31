@@ -49,7 +49,6 @@ const ButtonSection = styled.div`
   justify-content: center;
   
 `
-
 const Section = styled.div`
   padding-left: 2.5rem;
   padding-right: 2.5rem;
@@ -60,7 +59,6 @@ const Section = styled.div`
   //to compensate for nav 
   height: calc(100vh - 98px);
 `
-
 const LabCard = styled.div`
     background-color: #ffffff;
     color: white;
@@ -92,14 +90,12 @@ const LabBody = styled.p`
   padding-top: 10px;
   padding-bottom: 10px;
 `
-
 const LabDate = styled.span`
   font-weight: 400;
   font-size: .8rem;
   color: #252222;
   padding: 5px 0px 15px 0px;
 `
-
 export const Tasks = (props) => {
   const { propValue } = useParams();
   let labNumber = propValue;

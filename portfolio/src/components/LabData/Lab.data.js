@@ -42,11 +42,17 @@ export const Lab4obj = {
     num: "4",
     title: "Discussion Post - Lab 4",
     description: `
-    It is essential that when using animations for multimedia presentations that they are both simple and small. Animations are an effective tool at grabbing the reader's attention or to convey information that requires more than a static image, but is simple enough that a video isn't necessary.
+    It is essential that when using animations for multimedia presentations that they are both simple and small. 
+    Animations are an effective tool at grabbing the reader's attention or to convey information that requires more than a static image, 
+    but is simple enough that a video isn't necessary. 
+
+    These animations can be made fairly simply, chaining together a series of static images over a timeline and looping it. In photoshop, 
+    this process is done through the timeline/animation tool. Illustrator has similar functionality aswell. The example below this paragraph was made by me with a free online tool called EzGif.
+    Below that animation is one that is free to use from Giphy.com. It adds style and is an example of an animation that can be used to decorate a multimedia presentation that fits it's theme.
     
     `,
     date: "2023-03-24",
-    image: ["my_gif.gif"]
+    image: ["my_gif.gif", "leaf_gif.gif"]
 }
 
 export const Lab5obj = {
