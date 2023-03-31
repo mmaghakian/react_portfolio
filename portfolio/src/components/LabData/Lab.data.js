@@ -41,8 +41,12 @@ export const Lab4obj = {
     name: "lab 4",
     num: "4",
     title: "Discussion Post - Lab 4",
-    description: `The quick brown fox jumped over the lazy dog`,
-    date: "2023-03-24"
+    description: `
+    It is essential that when using animations for multimedia presentations that they are both simple and small. Animations are an effective tool at grabbing the reader's attention or to convey information that requires more than a static image, but is simple enough that a video isn't necessary.
+    
+    `,
+    date: "2023-03-24",
+    image: ["my_gif.gif"]
 }
 
 export const Lab5obj = {

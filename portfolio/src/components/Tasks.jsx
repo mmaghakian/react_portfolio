@@ -29,7 +29,7 @@ function BackButton({ labNumber }) {
 
 const LabSection = styled.div`
   width: 100%;
-  height: 70%;
+  height: 90%;
   display: flex;
   overflow-y: scroll;
   text-align: center;
@@ -40,7 +40,7 @@ const LabSection = styled.div`
 `
 const ButtonSection = styled.div`
   width: 100%;
-  height: 30%;
+  height: 10%;
   display: flex;
   text-align: center;
   margin-top: 2rem;
@@ -82,7 +82,7 @@ const LabTitle = styled.span`
   padding-bottom: 10px;
 `
 const LabBody = styled.p`
-  width: 50%;
+  width: 60%;
   min-width: 280px;
   color: #252222;
   font-size: 1rem;
