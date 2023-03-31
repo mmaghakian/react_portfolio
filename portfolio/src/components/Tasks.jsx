@@ -31,6 +31,7 @@ const LabSection = styled.div`
   width: 100%;
   height: 70%;
   display: flex;
+  overflow-y: scroll;
   text-align: center;
   padding-top: 3rem;
   align-items: center;
@@ -42,6 +43,7 @@ const ButtonSection = styled.div`
   height: 30%;
   display: flex;
   text-align: center;
+  margin-top: 2rem;
   flex-direction: row;
   position: relative;
   justify-content: center;
@@ -127,8 +129,16 @@ export const Tasks = (props) => {
           <LabDate>Added: {currLab.date}</LabDate>
           <LabTitle>{currLab.title}</LabTitle>
           <LabBody>{currLab.description}</LabBody>
+          {currLab.image !== undefined &&         
+          <LabCard>
+             {currLab.image.map(image => (  
+          <><img src={image} alt="img"/> <Divider/> </>
+        ))}  
+          </LabCard>
+        }
         </LabCard> 
       </LabSection>
+
       <ButtonSection>
         {currLab.num > 1 &&         
           <div className=' call-to-action justify-center items-start flex px-4 pb-6'>
